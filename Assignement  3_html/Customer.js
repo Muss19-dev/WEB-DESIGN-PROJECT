@@ -3,13 +3,13 @@ let totalCost = 0;
 
 function addToCart(price, qty)
 {
-  let AmountNeeded = parseInt(document.getElementById(qty).value);
+  let amountNeeded = parseInt(document.getElementById(qty).value);
 
-  totalItems += AmountNeeded;
+  totalItems += amountNeeded;
 
-  totalCost += AmountNeeded * price;
+  totalCost += amountNeeded * price;
 
-  document.getElementById("items").innerHTML = totalItems;
+  totalItems=document.getElementById("items").innerHTML
 
-  document.getElementById("cost").innerHTML = totalCost;
+  totalCost=document.getElementById("cost").innerHTML
 }
