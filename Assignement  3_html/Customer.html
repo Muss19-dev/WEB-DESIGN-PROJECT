@@ -1,5 +1,6 @@
 <html>
 <link rel="stylesheet" type="text/css" href="AUCA_CANTEEN.CSS.css">
+<script type="text/javascript" src="Customer.js"></script>
 <head>
     <title>
         AUCA CANTEEN MANAGEMENT SYSTEM
@@ -32,8 +33,8 @@
             <td>200</td>
             <td>100</td>
             <td>Available</td>
-          <td><input type="number" min="1" value="1"></td>
-          <td><input type="button" value="Add To Cart"></td>
+          <td><input type="number" id="qty" min="1" value="1"></td>
+          <td><input type="button" onclick="addToCart()" value="Add To Cart"></td>
         </tr>
         <tr>
             <td>Ibiraha</td>
@@ -41,8 +42,8 @@
             <td>200</td>
             <td>80</td>
             <td>Available</td>
-          <td><input type="number" min="1" value="1"></td>
-          <td><input type="button" value="Add To Cart"></td>
+          <td><input type="number" id="qty" min="1" value="1"></td>
+          <td><input type="button" onclick="addToCart()" value="Add To Cart"></td>
         </tr>
         <tr>
             <td>Capati</td>
@@ -50,8 +51,8 @@
             <td>200</td>
             <td>40</td>
             <td>Available</td>
-          <td><input type="number" min="1" value="1"></td>
-          <td><input type="button" value="Add To Cart"></td>
+          <td><input type="number" id="qty" min="1" value="1"></td>
+          <td><input type="button" onclick="addToCart()" value="Add To Cart"></td>
         </tr>
         <tr>
             <td>Banana</td>
@@ -59,8 +60,8 @@
             <td>200</td>
             <td>30</td>
             <td>Available</td>
-          <td><input type="number" min="1" value="1"></td>
-          <td><input type="button" value="Add To Cart"></td>
+          <td><input type="number" id="qty" min="1" value="1"></td>
+          <td><input type="button" onclick="addToCart()" value="Add To Cart"></td>
         </tr>
         <tr>
             <td>Eggs</td>
@@ -68,8 +69,8 @@
             <td>200</td>
             <td>60</td>
             <td>Available</td>
-          <td><input type="number" min="1" value="1"></td>
-          <td><input type="button" value="Add To Cart"></td>
+          <td><input type="number" id="qty" min="1" value="1"></td>
+          <td><input type="button" onclick="addToCart()" value="Add To Cart"></td>
         </tr>
         <tr>
             <td>Grilled Potatoes</td>
@@ -77,8 +78,8 @@
             <td>200</td>
             <td>00</td>
             <td>OUT OF STOCK</td>
-          <td><input type="number" min="1" value="1"></td>
-          <td><input type="button" value="Add To Cart"></td>
+          <td><input type="number" id="qty" min="1" value="1"></td>
+          <td><input type="button" onclick="addToCart()" value="Add To Cart"></td>
         </tr>
         <tr>
             <td>Fanta CocaCola</td>
@@ -86,8 +87,8 @@
             <td>1000</td>
             <td>30</td>
             <td>Available</td>
-          <td><input type="number" min="1" value="1"></td>
-          <td><input type="button" value="Add To Cart"></td>
+          <td><input type="number" id="qty" min="1" value="1"></td>
+          <td><input type="button" onclick="addToCart()" value="Add To Cart"></td>
         </tr>
         <tr>
             <td>Fanta Pineapple</td>
@@ -95,8 +96,8 @@
             <td>1000</td>
             <td>70</td>
             <td>Available</td>
-          <td><input type="number" min="1" value="1"></td>
-          <td><input type="button" value="Add To Cart"></td>
+          <td><input type="number" id="qty" min="1" value="1"></td>
+          <td><input type="button" onclick="addToCart()" value="Add To Cart"></td>
         </tr>
         <tr>
             <td>Milk</td>
@@ -104,8 +105,8 @@
             <td>1000</td>
             <td>30</td>
             <td>Available</td>
-          <td><input type="number" min="1" value="1"></td>
-          <td><input type="button" value="Add To Cart"></td>
+          <td><input type="number" id="qty" min="1" value="1"></td>
+          <td><input type="button" onclick="addToCart()" value="Add To Cart"></td>
         </tr>
         <tr>
             <td>Fanta Orange</td>
@@ -113,8 +114,8 @@
             <td>1000</td>
             <td>00</td>
             <td>Out of Stock</td>
-          <td><input type="number" min="1" value="1"></td>
-          <td><input type="button" value="Add To Cart"></td>
+          <td><input type="number" id="qty" min="1" value="1"></td>
+          <td><input type="button" onclick="addToCart()" value="Add To Cart"></td>
         </tr>
         <tr>
             <td>Sweets</td>
@@ -122,8 +123,8 @@
             <td>150</td>
             <td>200</td>
             <td>Available</td>
-          <td><input type="number" min="1" value="1"></td>
-          <td><input type="button" value="Add To Cart"></td>
+          <td><input type="number" id="qty" min="1" value="1"></td>
+          <td><input type="button" onclick="addToCart()" value="Add To Cart"></td>
         </tr>
         <tr>
             <td>Chocolate</td>
@@ -131,8 +132,8 @@
             <td>300</td>
             <td>100</td>
             <td>Available</td>
-          <td><input type="number" min="1" value="1"></td>
-          <td><input type="button" value="Add To Cart"></td>
+          <td><input type="number" id="qty" min="1" value="1"></td>
+          <td><input type="button" onclick="addToCart()" value="Add To Cart"></td>
         </tr>
         <tr>
             <td>Biscuits</td>
@@ -140,8 +141,8 @@
             <td>300</td>
             <td>100</td>
             <td>Available</td>
-          <td><input type="number" min="1" value="1"></td>
-          <td><input type="button" value="Add To Cart"></td>
+          <td><input type="number" id="qty" min="1" value="1"></td>
+          <td><input type="button" onclick="addToCart()" value="Add To Cart"></td>
         </tr>
         <tr>
             <td>Groundnuts</td>
@@ -149,8 +150,8 @@
             <td>300</td>
             <td>100</td>
             <td>Available</td>
-          <td><input type="number" min="1" value="1"></td>
-          <td><input type="button" value="Add To Cart"></td>
+          <td><input type="number" id="qty" min="1" value="1"></td>
+          <td><input type="button" onclick="addToCart()" value="Add To Cart"></td>
         </tr>
     </table>
 
@@ -158,8 +159,8 @@
 
         <h3>Cart Summary</h3>
 
-        <p>Total Items : 0</p>
-        <p>Total Cost : 0 RWF</p>
+      <p>Total Items : <span id="items">0</span></p>
+      <p>Total Cost : <span id="cost">0 RWF</span></p>
 
        <input type="button" value="Clear Cart"> <input type="button" value="Check Out">
 
