@@ -1,0 +1,38 @@
+.Menu{
+    display: flex;
+    gap: 200px;
+    background-color: white;
+    color: gold;
+}
+table{
+  margin:auto;
+  border-collapse:collapse;
+  background-color:white;
+  width:80%;
+}
+
+th, td{
+  border:1px solid black;
+  padding:10px;
+  text-align:center;
+}
+
+th{
+  background-color:#003366;
+  color:white;
+}
+h2{
+    color: #6161e3;
+    text-align: center;
+}
+h3{
+    color: #6161e3;
+    text-align: center;
+}
+h4{
+    color: #6161e3;
+    text-align: center;
+}
+.summary{
+  text-align: center;
+}
