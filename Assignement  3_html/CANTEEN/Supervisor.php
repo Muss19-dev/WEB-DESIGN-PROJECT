@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 
-$con=mysqli_connect("localhost","root","","auca_canteen2");
+$con=mysqli_connect("localhost","root","","auca_canteen");
 if(mysqli_connect_errno()){
     echo "Failed to connect to the server" .mysqli_connect_error();
 }
