@@ -1,3 +1,26 @@
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: changeBackground 30s infinite;
+}
+@keyframes changeBackground {
+    0%{
+        background-image: url(../PICTURES/auca_canteen3.jpg);
+    }
+    25%{
+        background-image: url(../PICTURES/bill2.jfif);
+    }
+    50%{
+        background-image: url(../PICTURES/cashier1.jfif);
+    }
+    75%{
+        background-image: url(../PICTURES/cashier2.jfif);
+    }
+    100%{
+        background-image: url(../PICTURES/bill1.jfif);
+    }
+}
 .menu{
     display: flex;
     gap: 150px;
@@ -8,6 +31,20 @@
     display: grid;
     grid-template-columns: auto auto;
     text-align: center;
+    border: 4px solid darkblue;
+    margin-left: 280px;
+    margin-right: 280px;
+    background: rgba(93, 144, 153, 0.763);
+    border-radius: 8px;
+}
+.card{
+    border:2px solid #003366;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(224, 207, 184);
+    border-radius: 12px;
 }
 table{
     margin:auto;
@@ -15,13 +52,10 @@ table{
     background-color:white;
     width:41%;
 }
-h1{
-    color: #6161e3;
+h1, h2{
+    color: bisque;
     text-align: center;
-}
-h2{
-    color: #6161e3;
-    text-align: center;
+    background: rgba(43, 46, 72, 0.838);
 }
 th, td{
     border:1px solid black;
@@ -38,4 +72,8 @@ th{
 }
 .payment{
     text-align: center;
+}
+footer{
+    background-color: #003366;
+    color: white;
 }

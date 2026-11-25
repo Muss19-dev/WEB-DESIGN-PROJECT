@@ -8,6 +8,20 @@
     display: grid;
     grid-template-columns: auto auto;
     text-align: center;
+    border: 4px solid darkblue;
+    margin-left: 280px;
+    margin-right: 280px;
+    background: rgba(93, 144, 153, 0.571);
+    border-radius: 8px;
+}
+.card{
+    border:2px solid #003366;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(224, 207, 184);
+    border-radius: 12px;
 }
 table{
     margin:auto;
@@ -15,13 +29,10 @@ table{
     background-color:white;
     width:41%;
 }
-h1{
-    color: #6161e3;
+h1, h2{
+    color: bisque;
     text-align: center;
-}
-h2{
-    color: #6161e3;
-    text-align: center;
+    background: rgba(43, 46, 72, 0.838);
 }
 th, td{
     border:1px solid black;
@@ -35,4 +46,41 @@ th{
 }
 .System{
     text-align: center;
+}
+footer{
+    background-color: #003366;
+    color: white;
+}
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: changeBackground 30s infinite;
+}
+@keyframes changeBackground {
+    0%{
+        background-image: url(../PICTURES/auca_canteen4.jpg);
+    }
+    50%{
+        background-image: url(../PICTURES/auca_canteen5.jpg);
+    }
+    100%{
+        background-image: url(../PICTURES/auca_canteen4.jpg);
+    }
+}
+.System p{
+    border:2px solid #003366;
+    background-color: rgb(224, 207, 184);
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.System button{
+    margin: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  width:120px;
+  height: 40px;
+  border: 2px solid rgba(0, 0, 0, 0.338);
+  border-radius: 5px;
 }

@@ -216,7 +216,7 @@ $totalRevenue =mysqli_fetch_assoc($totalRevenueResult);
             </a>
 
         </div>
-
+        <br>
         <footer>
 
             AUCA Canteen Management System © 2026

@@ -200,7 +200,7 @@ while($product = mysqli_fetch_assoc($productResult))
 ?>
 
 </table>
-
+<br>
 <footer>
     AUCA Canteen Management System © 2026
 </footer>

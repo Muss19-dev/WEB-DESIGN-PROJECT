@@ -139,7 +139,7 @@ $result = mysqli_query($con,$sql);
             <span id="cost">0 RWF</span>
         </p>
 
-        <input type="button" value="Clear Cart">
+        <input type="button" value="Clear Cart"><br>
 
         <form action="Checkout.php" method="post">
 
