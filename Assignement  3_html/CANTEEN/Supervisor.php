@@ -41,4 +41,5 @@ if(isset($_POST['addQuantity'])){
         echo "Item's Quantity updated successfully!";
     }
 }
+mysqli_close($con);
 ?>
