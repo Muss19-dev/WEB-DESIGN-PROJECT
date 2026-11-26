@@ -69,11 +69,9 @@ $result = mysqli_query($con,$sql);
 
             <td>
 
-                <img
-                        src="PICTURES/<?php echo $row['Image']; ?>"
-                        width="60"
-                        height="60"
-                        alt="Product Image">
+                <img src="../PICTURES/<?php echo $product['Image']; ?>"
+                         width="50"
+                         height="50">
 
                 <br>
 

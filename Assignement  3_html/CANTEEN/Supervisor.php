@@ -239,6 +239,7 @@ Add New Item
 
 </div>
 
+<div>
 <h2>Current Inventory</h2>
 
 <table border="1">
@@ -253,6 +254,8 @@ Add New Item
 <th>Status</th>
 
 </tr>
+
+</div>
 
 <?php
 
